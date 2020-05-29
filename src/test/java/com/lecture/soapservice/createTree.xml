@@ -1,0 +1,13 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:tns="http://soapService.tutorial">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <tns:createTreeRequest>
+            <tns:tree>
+                <tns:id>4</tns:id>
+                <tns:fruit>Apricot</tns:fruit>
+                <tns:geoLocation>3.45678, 6.23456</tns:geoLocation>
+            </tns:tree>
+        </tns:createTreeRequest>
+    </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:tns="http://soapService.tutorial">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <tns:getTreeRequest>
+            <tns:id>1</tns:id>
+        </tns:getTreeRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
